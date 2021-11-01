@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
-
 """
 sysinfo.py
-displays system information
-
 @author: kyle miller
 """
 
@@ -43,12 +40,6 @@ freezetemp = 32
 
 '''conversion factor to convert to percentage'''
 d2p = 100
-
-
-'''
-function to get system information
-will retrive and format information found in a given target path
-'''
 
 
 def getInfo(file):
